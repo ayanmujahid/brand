@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="footer-cont">
-                                <a href="index.php"><img src="assets/images/logo-designatrix.png" alt="footer logo"></a>
+                                <a href="index.php"><img width="400" height="300" loading="lazy" src="assets/images/logo-designatrix.png" alt="footer logo"></a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
@@ -96,7 +96,7 @@
                                     <li><a href="https://twitter.com/webdesignsigma1" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.linkedin.com/company/web-design-sigma/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.instagram.com/webdesignsigmaofficial/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.crunchbase.com/organization/web-design-sigma" target="_blank"><img src="assets/images/crunch-icon.png"></a></li>
+                                    <li><a href="https://www.crunchbase.com/organization/web-design-sigma" target="_blank"><img width="400" height="300" loading="lazy" src="assets/images/crunch-icon.png"></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
                     <div class="footer-scroll">
-                        <a href="#header-row">Back To Top <img src="assets/images/top-scroll.png" alt="scroll"></a>
+                        <a href="#header-row">Back To Top <img width="400" height="300" loading="lazy" src="assets/images/top-scroll.png" alt="scroll"></a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="popup-left-sec">
-                                    <img src="assets/images/popup-img.jpg" alt="popup image">
+                                    <img width="400" height="300" loading="lazy" src="assets/images/popup-img.jpg" alt="popup image">
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">

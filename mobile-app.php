@@ -12,37 +12,37 @@
         <div id="branding-carousel" class="owl-carousel">
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand1.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand1.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand2.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand2.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand3.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand3.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand4.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand4.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand5.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand5.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand6.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand6.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand7.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand7.png" alt="">
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="service-about-lft">
                     <h2>Mobile App</h2>
-                    <img src="assets/images/mobile-about.jpg" alt="service about image">
+                    <img width="400" height="300" loading="lazy" src="assets/images/mobile-about.jpg" alt="service about image">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
@@ -101,7 +101,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="service-choose-sec">
-                    <img src="assets/images/mobile-choose.jpg" alt="service choose image">
+                    <img width="400" height="300" loading="lazy" src="assets/images/mobile-choose.jpg" alt="service choose image">
                 </div>
             </div>
         </div>

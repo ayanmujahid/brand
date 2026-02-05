@@ -13,37 +13,37 @@
         <div id="branding-carousel" class="owl-carousel">
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand1.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand1.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand2.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand2.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand3.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand3.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand4.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand4.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand5.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand5.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand6.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand6.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img src="assets/images/brand7.png" alt="">
+                    <img width="400" height="300" loading="lazy" src="assets/images/brand7.png" alt="">
                 </div>
             </div>
         </div>
@@ -70,14 +70,14 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="about-sec">
-                    <img src="assets/images/about-img.jpg" alt="about image">
+                    <img width="400" height="300" loading="lazy" src="assets/images/about-img.jpg" alt="about image">
                 </div>
             </div>
         </div>
         <div class="row row-reverse align-items-center">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
                 <div class="about-inner-sec">
-                    <img src="assets/images/mission-img.jpg" alt="about image">
+                    <img width="400" height="300" loading="lazy" src="assets/images/mission-img.jpg" alt="about image">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
@@ -98,7 +98,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
                 <div class="about-inner-sec">
-                    <img src="assets/images/vision-img.jpg" alt="about image">
+                    <img width="400" height="300" loading="lazy" src="assets/images/vision-img.jpg" alt="about image">
                 </div>
             </div>
         </div>
