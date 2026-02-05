@@ -19,57 +19,57 @@
           <div class="slider-container" id="slider-1">
             <div class="slider-track">
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img1.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img1.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img2.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img2.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img3.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img3.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img4.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img4.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img5.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img5.jpg" alt="banner slide image">
               </div>
             </div>
           </div>
           <div class="slider-container" id="slider-2">
             <div class="slider-track">
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img6.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img6.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img7.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img7.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img8.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img8.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img9.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img9.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img10.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img10.jpg" alt="banner slide image">
               </div>
             </div>
           </div>
           <div class="slider-container" id="slider-3">
             <div class="slider-track">
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img1.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img1.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img2.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img2.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img3.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img3.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img4.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img4.jpg" alt="banner slide image">
               </div>
               <div class="slide">
-                <img width="400" height="300" loading="lazy" src="assets/images/banner-slide-img5.jpg" alt="banner slide image">
+                <img loading="lazy" src="assets/images/banner-slide-img5.jpg" alt="banner slide image">
               </div>
             </div>
           </div>
@@ -81,37 +81,37 @@
     <div id="branding-carousel" class="owl-carousel">
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand1.png" alt="">
+          <img loading="lazy" src="assets/images/brand1.png" alt="">
         </div>
       </div>
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand2.png" alt="">
+          <img loading="lazy" src="assets/images/brand2.png" alt="">
         </div>
       </div>
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand3.png" alt="">
+          <img loading="lazy" src="assets/images/brand3.png" alt="">
         </div>
       </div>
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand4.png" alt="">
+          <img loading="lazy" src="assets/images/brand4.png" alt="">
         </div>
       </div>
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand5.png" alt="">
+          <img loading="lazy" src="assets/images/brand5.png" alt="">
         </div>
       </div>
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand6.png" alt="">
+          <img loading="lazy" src="assets/images/brand6.png" alt="">
         </div>
       </div>
       <div class="item">
         <div class="branding-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/brand7.png" alt="">
+          <img loading="lazy" src="assets/images/brand7.png" alt="">
         </div>
       </div>
     </div>
@@ -137,7 +137,7 @@
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
         <div class="about-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/about-img.jpg" alt="about image">
+          <img loading="lazy" src="assets/images/about-img.jpg" alt="about image">
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@
   <div class="container-fluid">
     <div class="w-sec services-head">
       <h2>What we do</h2>
-      <a href="web-design.php">more <img width="400" height="300" loading="lazy" src="assets/images/small-link.png" alt="ling"></a>
+      <a href="web-design.php">more <img loading="lazy" src="assets/images/small-link.png" alt="ling"></a>
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
@@ -156,7 +156,7 @@
           <div class="hover-service-cont">
             <h3>Logo Design</h3>
             <p>Your logo isn’t just a visual; it’s your brand’s identity. As one of the top logo design companies, we create logos that capture attention, inspire trust, and define your business personality. Let us design something that not only looks great but also sells your story.</p>
-            <a href="logo-design.php"><img width="400" height="300" loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
+            <a href="logo-design.php"><img loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@
           <div class="hover-service-cont">
             <h3>Web Design</h3>
             <p>Your website is your first impression. Within seconds, visitors decide whether to stay or leave. At Designatrix, our web designers craft visually stunning, high-performing websites that convert browsers into buyers.</p>
-            <a href="web-design.php"><img width="400" height="300" loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
+            <a href="web-design.php"><img loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@
           <div class="hover-service-cont">
             <h3>E-Commerce</h3>
             <p>Your website code may be clean, but what matters most is how it sells. Our Shopify web developers and website designers build user-friendly, conversion-focused online stores that attract buyers and maximize your ROI. </p>
-            <a href="ecommerce-solutions.php"><img width="400" height="300" loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
+            <a href="ecommerce-solutions.php"><img loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@
           <div class="hover-service-cont">
             <h3>SEO</h3>
             <p>Your audience is searching for what you offer. Our expert website developers and marketers ensure you’re always on the frontline of search results. We optimize your site for visibility, traffic, and trust so customers find you, not your competitors.</p>
-            <a href="seo.php"><img width="400" height="300" loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
+            <a href="seo.php"><img loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@
           <div class="hover-service-cont">
             <h3>Branding</h3>
             <p>Your brand is more than a name; it’s your reputation. We combine strategy and creativity to build memorable branding identities that resonate. As a website design company with a strong creative core, we ensure your brand looks, feels, and sounds premium across every platform.</p>
-            <a href="branding.php"><img width="400" height="300" loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
+            <a href="branding.php"><img loading="lazy" src="assets/images/arrow.png" alt="arrow"></a>
           </div>
         </div>
       </div>
@@ -231,7 +231,7 @@
           <div class="portfolio-sec">
             <div class="portfolio-scroll">
               <a href="assets/images/portfolio/01.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/01.webp" alt="portfolio image">
+                <img loading="lazy" src="assets/images/portfolio/01.webp" alt="portfolio image">
               </a>
             </div>
           </div>
@@ -240,7 +240,7 @@
           <div class="portfolio-sec">
             <div class="portfolio-scroll">
               <a href="assets/images/portfolio/02.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/02.webp" alt="portfolio image">
+                <img loading="lazy" src="assets/images/portfolio/02.webp" alt="portfolio image">
               </a>
             </div>
           </div>
@@ -249,7 +249,7 @@
           <div class="portfolio-sec">
             <div class="portfolio-scroll">
               <a href="assets/images/portfolio/03.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/03.webp" alt="portfolio image">
+                <img loading="lazy" src="assets/images/portfolio/03.webp" alt="portfolio image">
               </a>
             </div>
           </div>
@@ -258,7 +258,7 @@
           <div class="portfolio-sec">
             <div class="portfolio-scroll">
               <a href="assets/images/portfolio/04.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/04.webp" alt="portfolio image">
+                <img loading="lazy" src="assets/images/portfolio/04.webp" alt="portfolio image">
               </a>
             </div>
           </div>
@@ -267,7 +267,7 @@
           <div class="portfolio-sec">
             <div class="portfolio-scroll">
               <a href="assets/images/portfolio/05.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/05.webp" alt="portfolio image">
+                <img loading="lazy" src="assets/images/portfolio/05.webp" alt="portfolio image">
               </a>
             </div>
           </div>
@@ -276,7 +276,7 @@
           <div class="portfolio-sec">
             <div class="portfolio-scroll">
               <a href="assets/images/portfolio/06.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/06.webp" alt="portfolio image">
+                <img loading="lazy" src="assets/images/portfolio/06.webp" alt="portfolio image">
               </a>
             </div>
           </div>
@@ -1374,7 +1374,7 @@
         <div class="item">
           <div class="testimonials-sec">
             <div class="author-box">
-              <img width="400" height="300" loading="lazy" src="assets/images/client-img1.png" alt="client image">
+              <img loading="lazy" src="assets/images/client-img1.png" alt="client image">
               <div class="text">
                 <h3>Liam D.</h3>
                 <h4>Small Business Owner</h4>
@@ -1386,7 +1386,7 @@
         <div class="item">
           <div class="testimonials-sec">
             <div class="author-box">
-              <img width="400" height="300" loading="lazy" src="assets/images/client-img2.png" alt="client image">
+              <img loading="lazy" src="assets/images/client-img2.png" alt="client image">
               <div class="text">
                 <h3>Jason M.</h3>
                 <h4>Startup Founder</h4>
@@ -1398,7 +1398,7 @@
         <div class="item">
           <div class="testimonials-sec">
             <div class="author-box">
-              <img width="400" height="300" loading="lazy" src="assets/images/client-img3.png" alt="client image">
+              <img loading="lazy" src="assets/images/client-img3.png" alt="client image">
               <div class="text">
                 <h3>Catherine P. </h3>
                 <h4>Brand Strategist</h4>
@@ -1411,7 +1411,7 @@
         <div class="item">
           <div class="testimonials-sec">
             <div class="author-box">
-              <img width="400" height="300" loading="lazy" src="assets/images/client-img4.png" alt="client image">
+              <img loading="lazy" src="assets/images/client-img4.png" alt="client image">
               <div class="text">
                 <h3>Thomas K</h3>
                 <h4>Consultant</h4>
@@ -1423,7 +1423,7 @@
         <div class="item">
           <div class="testimonials-sec">
             <div class="author-box">
-              <img width="400" height="300" loading="lazy" src="assets/images/client-img5.png" alt="client image">
+              <img loading="lazy" src="assets/images/client-img5.png" alt="client image">
               <div class="text">
                 <h3>Emily S</h3>
                 <h4>Startup Founder</h4>
@@ -1453,7 +1453,7 @@
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
         <div class="cta-sec">
-          <img width="400" height="300" loading="lazy" src="assets/images/cta-img.png" alt="cta image">
+          <img loading="lazy" src="assets/images/cta-img.png" alt="cta image">
         </div>
       </div>
     </div>

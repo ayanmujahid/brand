@@ -13,37 +13,37 @@
         <div id="branding-carousel" class="owl-carousel">
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand1.png" alt="">
+                    <img loading="lazy" src="assets/images/brand1.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand2.png" alt="">
+                    <img loading="lazy" src="assets/images/brand2.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand3.png" alt="">
+                    <img loading="lazy" src="assets/images/brand3.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand4.png" alt="">
+                    <img loading="lazy" src="assets/images/brand4.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand5.png" alt="">
+                    <img loading="lazy" src="assets/images/brand5.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand6.png" alt="">
+                    <img loading="lazy" src="assets/images/brand6.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand7.png" alt="">
+                    <img loading="lazy" src="assets/images/brand7.png" alt="">
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/01.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/01.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/01.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/02.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/02.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/02.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/03.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/03.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/03.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/04.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/04.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/04.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/05.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/05.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/05.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/06.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/06.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/06.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/07.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/07.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/07.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/08.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/08.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/08.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/09.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/09.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/09.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/10.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/10.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/10.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/11.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/11.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/11.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-scroll">
                             <a href="assets/images/portfolio/12.webp" data-fancybox="gallery" data-caption="Caption Images 1">
-                                <img width="400" height="300" loading="lazy" src="assets/images/portfolio/12.webp" alt="portfolio image">
+                                <img loading="lazy" src="assets/images/portfolio/12.webp" alt="portfolio image">
                             </a>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                 <div class="item">
                     <div class="testimonials-sec">
                         <div class="author-box">
-                            <img width="400" height="300" loading="lazy" src="assets/images/client-img1.png" alt="client image">
+                            <img loading="lazy" src="assets/images/client-img1.png" alt="client image">
                             <div class="text">
                                 <h3>Liam D.</h3>
                                 <h4>Small Business Owner</h4>
@@ -199,7 +199,7 @@
                 <div class="item">
                     <div class="testimonials-sec">
                         <div class="author-box">
-                            <img width="400" height="300" loading="lazy" src="assets/images/client-img2.png" alt="client image">
+                            <img loading="lazy" src="assets/images/client-img2.png" alt="client image">
                             <div class="text">
                                 <h3>Jason M.</h3>
                                 <h4>Startup Founder</h4>
@@ -211,7 +211,7 @@
                 <div class="item">
                     <div class="testimonials-sec">
                         <div class="author-box">
-                            <img width="400" height="300" loading="lazy" src="assets/images/client-img3.png" alt="client image">
+                            <img loading="lazy" src="assets/images/client-img3.png" alt="client image">
                             <div class="text">
                                 <h3>Catherine P. </h3>
                                 <h4>Brand Strategist</h4>
@@ -224,7 +224,7 @@
                 <div class="item">
                     <div class="testimonials-sec">
                         <div class="author-box">
-                            <img width="400" height="300" loading="lazy" src="assets/images/client-img4.png" alt="client image">
+                            <img loading="lazy" src="assets/images/client-img4.png" alt="client image">
                             <div class="text">
                                 <h3>Thomas K</h3>
                                 <h4>Consultant</h4>
@@ -236,7 +236,7 @@
                 <div class="item">
                     <div class="testimonials-sec">
                         <div class="author-box">
-                            <img width="400" height="300" loading="lazy" src="assets/images/client-img5.png" alt="client image">
+                            <img loading="lazy" src="assets/images/client-img5.png" alt="client image">
                             <div class="text">
                                 <h3>Emily S</h3>
                                 <h4>Startup Founder</h4>

@@ -12,37 +12,37 @@
         <div id="branding-carousel" class="owl-carousel">
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand1.png" alt="">
+                    <img loading="lazy" src="assets/images/brand1.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand2.png" alt="">
+                    <img loading="lazy" src="assets/images/brand2.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand3.png" alt="">
+                    <img loading="lazy" src="assets/images/brand3.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand4.png" alt="">
+                    <img loading="lazy" src="assets/images/brand4.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand5.png" alt="">
+                    <img loading="lazy" src="assets/images/brand5.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand6.png" alt="">
+                    <img loading="lazy" src="assets/images/brand6.png" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="branding-sec">
-                    <img width="400" height="300" loading="lazy" src="assets/images/brand7.png" alt="">
+                    <img loading="lazy" src="assets/images/brand7.png" alt="">
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
 </section>
 <!-- <section class="contact-map-row">
         <div class="container-fluid">
-            <img width="400" height="300" loading="lazy" src="assets/images/contact-map.png" alt="contact map">
+            <img loading="lazy" src="assets/images/contact-map.png" alt="contact map">
         </div>
     </section> -->
 
