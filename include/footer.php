@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="footer-cont">
-                                <a href="index.php"><img loading="lazy" src="assets/images/logo-designatrix.png" alt="footer logo"></a>
+                                <a href="index.php"><img loading="lazy" src="assets/images/logo-black.png" alt="footer logo"></a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">

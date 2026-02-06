@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <!-- Logo -->
           <a class="navbar-brand" href="index.php">
-            <img loading="lazy" src="assets/images/logo-designatrix.png" alt="logo">
+            <img loading="lazy" src="assets/images/logo-white.png" alt="logo">
           </a>
           <!-- Navbar toggle -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

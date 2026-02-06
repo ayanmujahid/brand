@@ -57,7 +57,7 @@ s0.parentNode.insertBefore(s1,s0);
       "name": "Designatrix",
       "alternateName": "Designatrix",
       "url": "https://designatrix.com/",
-      "logo": "https://designatrix.com/images/logo-designatrix.png",
+      "logo": "https://designatrix.com/images/logo-white.png",
       "sameAs": [
         "https://www.facebook.com/people/Web-Design-Sigma/100093517095123/",
         "https://twitter.com/webdesignsigma1",
@@ -72,7 +72,7 @@ s0.parentNode.insertBefore(s1,s0);
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Designatrix",
-      "image": "https://designatrix.com/images/logo-designatrix.png",
+      "image": "https://designatrix.com/images/logo-white.png",
       "@id": "",
       "url": "https://designatrix.com/",
       "telephone": "(210) 512-5458",

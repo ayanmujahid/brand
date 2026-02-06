@@ -294,12 +294,28 @@ div#slider-2 .slider-track {
     }
 }
 section.inner-banner-row {
+    position: relative;
     background-image: url(../images/inner-bg.jpg);
     padding: 290px 0 0 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+section.inner-banner-row::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(124 80 160 / 57%);
+}
+/* content upar rahe */
+section.inner-banner-row > * {
+    position: relative;
+}
+
 .inner-banner-sec {
     padding: 0 0 173px 162px;
     position: relative;
