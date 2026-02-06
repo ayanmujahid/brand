@@ -23,7 +23,7 @@
                         <li><a href="ecommerce-solutions.php">Ecommerce Solutions</a></li>
                         <li><a href="web-maintenance.php">Website Maintenance</a></li>
                     </ul>
-                    <form action="https://designatrix.com/send_data.php" method="POST">
+                    <form action="send_data.php" method="POST">
                         <div class="form-group">
                             <input type="text" class="form-control" name="order_fullname" placeholder="name">
                         </div>
