@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="footer-cont">
-                                <a href="index.php"><img loading="lazy" src="assets/images/logo-black.png" alt="footer logo"></a>
+                                <a href="https://designatrix.com/"><img loading="lazy" src="assets/images/logo-black.png" alt="footer logo"></a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
@@ -73,7 +73,7 @@
                             <div class="footer-links">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="https://designatrix.com/">Home</a></li>
                                     <li><a href="packages.php">Packages</a></li>
                                     <li><a href="portfolio.php">Portfolio</a></li>
                                     <li><a href="contact-us.php">Contact Us</a></li>
@@ -92,11 +92,11 @@
                             </div>
                             <div class="footer-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/people/Web-Design-Sigma/100093517095123/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/webdesignsigma1" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/web-design-sigma/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/webdesignsigmaofficial/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.crunchbase.com/organization/web-design-sigma" target="_blank"><img loading="lazy" src="assets/images/crunch-icon.png"></a></li>
+                                    <li><a href="https://www.facebook.com/people/Designatrix/61582972443648/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/designatrix" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com/designatrix.official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <!-- <li><a href="https://www.crunchbase.com/organization/web-design-sigma" target="_blank"><img loading="lazy" src="assets/images/crunch-icon.png"></a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                             <button type="submit" class="btn btn-sm btn-primary w-btn">Get a Quote</button>
             								<input type="hidden" name="cip" value="119.73.96.25">										
-            								<input type="hidden" id="location" name="locationURL" value="index.php">
+            								<input type="hidden" id="location" name="locationURL" value="https://designatrix.com/">
 			                                <input type="hidden" name="order_package_name" value="Website Basic Package - $199" class="package_name" id="package_name">
                                             <input type="hidden" name="order-from" value="1">
                                         </div>

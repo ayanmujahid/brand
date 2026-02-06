@@ -1388,7 +1388,7 @@ div#staticBackdrop .btn-close {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: #24a0eb;
+    background: rgb(124 80 160);
     border: none;
     right: -10px;
     top: -10px;
@@ -1430,7 +1430,7 @@ div#staticBackdrop .btn-close i {
 }
 .popup_form .col-lg-8:before {
     content: "";
-    background: #24a0eb;
+    background: rgb(124 80 160);
     position: absolute;
     left: 0;
     right: 0;
@@ -1438,7 +1438,7 @@ div#staticBackdrop .btn-close i {
     top: 0;
     opacity: 0.8;
     z-index: -1;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 .popup_form .col-lg-8 h3 {
     text-align: center;

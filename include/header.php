@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <!-- Logo -->
-          <a class="navbar-brand" href="index.php">
+          <a class="navbar-brand" href="https://designatrix.com/">
             <img loading="lazy" src="assets/images/logo-white.png" alt="logo">
           </a>
           <!-- Navbar toggle -->
@@ -16,7 +16,7 @@
             <!-- Nav -->
             <div class="navbar-nav mx-lg-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="https://designatrix.com/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about-us.php">About Us</a>
@@ -114,7 +114,7 @@
           <div class="main-menu menu">
             <ul>
               <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="https://designatrix.com/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about-us.php">About Us</a>
