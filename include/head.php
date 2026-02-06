@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Designatrix</title>
-    <link rel="icon" type="image/png"  href="assets/images/favicon.png">
+    <link rel="icon" type="image/png"  href="assets/images/favi.png">
     <!-- New Start -->
 	<meta name="msvalidate.01" content="5E2EF77CC237BBC5DFE1210269C72488" />
 	

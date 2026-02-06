@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# ðŸ”’ Skip redirect for send_data.php (don't interfere with form action)
+RewriteCond %{REQUEST_URI} ^/send_data\.php$ [NC]
+RewriteRule ^ - [L]
+
+# âœ… Redirect .php URLs to clean URLs (optional SEO redirect)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC]
+RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
+
+# âœ… Internally rewrite clean URLs to .php files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
