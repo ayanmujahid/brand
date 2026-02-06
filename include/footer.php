@@ -143,7 +143,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                                 <h3 class="title">Get 50% Off – Activate Coupon</h3>
                                 <!--action="send_data.php"-->
-                                <form action="https://designatrix.com/send_data.php" method="POST" id="saveform" name="popup-validate-form">
+                                <form action="send_data.php" method="POST" id="saveform" name="popup-validate-form">
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                             <div class="form_field">
