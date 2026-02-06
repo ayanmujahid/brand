@@ -80,11 +80,16 @@
 
 <section class="thank-you-section">
     <div class="container">
-        <h1>Thank You!</h1>
-        <p>
-            Thank you for reaching out to Designatrix.
-            One of our team members will contact you soon.
-        </p>
+        <?php if (isset($_GET['status']) && $_GET['status'] == 'success'): ?>
+            <h1>Thank You!</h1>
+            <p>
+                Thank you for reaching out to Designatrix.
+                One of our team members will contact you soon.
+            </p>
+        <?php else: ?>
+            <h2>Oops!</h2>
+            <p>Something went wrong. Please try again.</p>
+        <?php endif; ?>
         <a href="index.php" class="btn-primary">Back to Home</a>
     </div>
 </section>

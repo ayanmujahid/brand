@@ -1,6 +1,6 @@
 <?php
 // Define recipient email
-$to = 'ayanmujahid1234@gmail.com, masoodum123@gmail.com, abdulqadirkhimani136@gmail.com, abdulqadirkhimani136@gmail.com';
+$to = 'ayanmujahid1234@gmail.com, masoodum123@gmail.com, abdulqadirkhimani136@gmail.com';
 
 // Define sender email
 $from = 'info@designatrix.com';
@@ -15,13 +15,13 @@ $location = isset($_POST['locationURL']) ? htmlspecialchars(trim($_POST['locatio
 
 // Validate required fields
 if (empty($name) || empty($email) || empty($phone) || empty($message)) {
-    echo 'Please fill in all required fields.';
+    header("Location: thankyou.php?status=error");
     exit;
 }
 
 // Validate email
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo 'Invalid email format.';
+    header("Location: thankyou.php?status=invalid_email");
     exit;
 }
 
@@ -41,10 +41,12 @@ $headers  = "From: Designatrix <$from>\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-// Send email
+// Send email and redirect
 if (mail($to, $subject, $body, $headers)) {
-    echo 'Message sent successfully!';
+    header("Location: thankyou.php?status=success");
+    exit;
 } else {
-    echo 'Message sending failed. Please try again.';
+    header("Location: thankyou.php?status=failed");
+    exit;
 }
 ?>
