@@ -1,64 +1,55 @@
-# Enable Rewrite Engine
-
 RewriteEngine On
 
-# ------------------------------
+# Disable directory browsing
+
+Options -Indexes
+
+# -----------------------------
 
 # SECURITY HEADERS
 
-# ------------------------------
+# -----------------------------
 
 <IfModule mod_headers.c>
 Header set X-Content-Type-Options "nosniff"
 Header set X-Frame-Options "SAMEORIGIN"
 Header set X-XSS-Protection "1; mode=block"
-Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
 
-# ------------------------------
+# -----------------------------
 
-# DISABLE DIRECTORY BROWSING
+# BLOCK .env FILE
 
-# ------------------------------
-
-Options -Indexes
-
-# ------------------------------
-
-# BLOCK .ENV FILE
-
-# ------------------------------
+# -----------------------------
 
 <Files ".env">
 Require all denied </Files>
 
-# ------------------------------
+# -----------------------------
 
-# BLOCK GIT ACCESS
+# BLOCK .git
 
-# ------------------------------
+# -----------------------------
 
 RedirectMatch 404 /.git
 
-# ------------------------------
+# -----------------------------
 
-# CLEAN URL RULES
+# CLEAN URL SYSTEM
 
-# ------------------------------
+# -----------------------------
 
 # Skip redirect for send_data.php
 
-RewriteCond %{REQUEST_URI} ^/send_data.php$ [NC]
-RewriteRule ^ - [L]
+RewriteRule ^send_data.php$ - [L]
 
-# Redirect .php URLs to clean URLs
+# Redirect example.php → /example
 
 RewriteCond %{THE_REQUEST} \s/([^.]+).php [NC]
 RewriteRule ^([^.]+).php$ /$1 [R=301,L]
 
-# Internally rewrite clean URLs to .php
+# Internally load /example → example.php
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L]
+RewriteRule ^([^/]+)$ $1.php [L]
