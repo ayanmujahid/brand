@@ -1,57 +1,15 @@
 RewriteEngine On
 
-# Disable directory browsing
-
-Options -Indexes
-
-# -----------------------------
-
-# SECURITY HEADERS
-
-# -----------------------------
-
-<IfModule mod_headers.c>
-Header set X-Content-Type-Options "nosniff"
-Header set X-Frame-Options "SAMEORIGIN"
-Header set X-XSS-Protection "1; mode=block"
-</IfModule>
-
-# -----------------------------
-
-# BLOCK .env FILE
-
-# -----------------------------
-
-<Files ".env">
-Require all denied </Files>
-
-# -----------------------------
-
-# BLOCK .git
-
-# -----------------------------
-
-RedirectMatch 404 /.git
-
-# -----------------------------
-
-# CLEAN URL SYSTEM
-
-# -----------------------------
-
-# Skip redirect for send_data.php
-
-RewriteCond %{REQUEST_URI} ^/send_data\.php$ [NC] 
+# ðŸ”’ Skip redirect for send_data.php (don't interfere with form action)
+RewriteCond %{REQUEST_URI} ^/send_data\.php$ [NC]
 RewriteRule ^ - [L]
 
-# Redirect example.php → /example
-
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC] 
+# âœ… Redirect .php URLs to clean URLs (optional SEO redirect)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC]
 RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
 
-# Internally load /example → example.php
-
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}.php -f 
+# âœ… Internally rewrite clean URLs to .php files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [L]
