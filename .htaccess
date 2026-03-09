@@ -1,14 +1,85 @@
+# Enable rewrite engine
+
 RewriteEngine On
 
-# ðŸ”’ Skip redirect for send_data.php (don't interfere with form action)
-RewriteCond %{REQUEST_URI} ^/send_data\.php$ [NC]
+# ------------------------------------------------
+
+# SECURITY HEADERS
+
+# ------------------------------------------------
+
+<IfModule mod_headers.c>
+Header set X-Content-Type-Options "nosniff"
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# ------------------------------------------------
+
+# DISABLE DIRECTORY BROWSING
+
+# ------------------------------------------------
+
+Options -Indexes
+
+# ------------------------------------------------
+
+# BLOCK ACCESS TO SENSITIVE FILES
+
+# ------------------------------------------------
+
+<FilesMatch "(^.|composer.(json|lock)|package.json|package-lock.json|.env)">
+Order allow,deny
+Deny from all </FilesMatch>
+
+# ------------------------------------------------
+
+# BLOCK GIT REPOSITORY ACCESS
+
+# ------------------------------------------------
+
+RedirectMatch 404 /.git
+
+# ------------------------------------------------
+
+# BLOCK COMMON MALWARE FILE TYPES
+
+# ------------------------------------------------
+
+<FilesMatch "(shell|cmd|config|backup|db|sql|ini).(php|txt|log)$">
+Order allow,deny
+Deny from all </FilesMatch>
+
+# ------------------------------------------------
+
+# PROTECT PHP FILES IN ASSETS / UPLOADS
+
+# ------------------------------------------------
+
+<DirectoryMatch "/(assets|uploads|images)/">
+<FilesMatch ".php$">
+Order allow,deny
+Deny from all </FilesMatch> </DirectoryMatch>
+
+# ------------------------------------------------
+
+# YOUR ORIGINAL CLEAN URL RULES
+
+# ------------------------------------------------
+
+# Skip redirect for send_data.php
+
+RewriteCond %{REQUEST_URI} ^/send_data.php$ [NC]
 RewriteRule ^ - [L]
 
-# âœ… Redirect .php URLs to clean URLs (optional SEO redirect)
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC]
-RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
+# Redirect .php URLs to clean URLs
 
-# âœ… Internally rewrite clean URLs to .php files
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+).php [NC]
+RewriteRule ^([^.]+).php$ /$1 [R=301,L]
+
+# Internally rewrite clean URLs to .php
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
