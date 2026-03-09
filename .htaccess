@@ -25,25 +25,16 @@ Options -Indexes
 
 # ------------------------------
 
-# BLOCK ACCESS TO HIDDEN FILES
+# BLOCK .ENV FILE
 
 # ------------------------------
 
-<FilesMatch "^.">
-Require all denied </FilesMatch>
+<Files ".env">
+Require all denied </Files>
 
 # ------------------------------
 
-# BLOCK .ENV AND CONFIG FILES
-
-# ------------------------------
-
-<FilesMatch "(^.env|composer.(json|lock)|package.json)">
-Require all denied </FilesMatch>
-
-# ------------------------------
-
-# BLOCK GIT REPOSITORY
+# BLOCK GIT ACCESS
 
 # ------------------------------
 
