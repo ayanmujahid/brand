@@ -13,3 +13,48 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [L]
+
+
+
+
+
+
+# Disable directory browsing
+
+Options -Indexes
+
+# -----------------------------
+
+# SECURITY HEADERS
+
+# -----------------------------
+
+<IfModule mod_headers.c>
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# -----------------------------
+
+# BLOCK .env FILE
+
+# -----------------------------
+
+<Files ".env">
+Require all denied </Files>
+
+# -----------------------------
+
+# BLOCK .git
+
+# -----------------------------
+
+RedirectMatch 404 /.git
+
+# -----------------------------
+
+# CLEAN URL SYSTEM
+
+# -----------------------------
+
