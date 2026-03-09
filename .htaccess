@@ -41,15 +41,17 @@ RedirectMatch 404 /.git
 
 # Skip redirect for send_data.php
 
-RewriteRule ^send_data.php$ - [L]
+RewriteCond %{REQUEST_URI} ^/send_data\.php$ [NC] 
+RewriteRule ^ - [L]
 
 # Redirect example.php → /example
 
-RewriteCond %{THE_REQUEST} \s/([^.]+).php [NC]
-RewriteRule ^([^.]+).php$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC] 
+RewriteRule ^([^.]+)\.php$ /$1 [R=301,L]
 
 # Internally load /example → example.php
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}.php -f 
+RewriteRule ^(.*)$ $1.php [L]
